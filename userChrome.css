@@ -1,0 +1,43 @@
+.titlebar-buttonbox-container {
+  margin-right: var(--zen-element-separation) !important;
+}
+
+.titlebar-button {
+  background: none !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 14px 14px !important;
+  padding: 0px 7px !important;
+}
+
+.titlebar-button::before {
+  display: none !important;
+}
+
+.titlebar-buttonbox > *:not(:first-child) {
+  margin-left: 14px !important;
+}
+
+.titlebar-button:hover {
+  filter: brightness(1.2) !important;
+}
+
+.titlebar-button:active {
+  filter: brightness(0.8) !important;
+}
+
+.titlebar-min {
+  background-image: url("minimize.svg") !important;
+}
+
+.titlebar-max {
+  background-image: url("maximize.svg") !important;
+}
+
+.titlebar-restore {
+  background-image: url("maximize.svg") !important;
+}
+
+.titlebar-close {
+  background-image: url("close.svg") !important;
+}
